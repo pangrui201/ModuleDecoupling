@@ -31,7 +31,10 @@
 
 
 ## 系统交互图
-![image](https://github.com/pangrui201/ModuleDecoupling/blob/main/img/b-%E6%94%B9%E9%80%A0%E5%89%8D%E7%B3%BB%E7%BB%9F%E4%BA%A4%E4%BA%92%E5%9B%BE-%E7%AC%AC%207%20%E9%A1%B5.drawio.png)     ![image](https://github.com/pangrui201/ModuleDecoupling/blob/main/img/b-%E6%94%B9%E9%80%A0%E5%89%8D%E7%B3%BB%E7%BB%9F%E4%BA%A4%E4%BA%92%E5%9B%BE-%E7%AC%AC%209%20%E9%A1%B5.drawio.png)
+![image](https://raw.githubusercontent.com/pangrui201/ModuleDecoupling/main/img/b-%E7%AC%AC%204%20%E9%A1%B5.drawio.png)
+![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
+
+![image](https://github.com/pangrui201/ModuleDecoupling/blob/main/img/b-%E6%94%B9%E9%80%A0%E5%89%8D%E7%B3%BB%E7%BB%9F%E4%BA%A4%E4%BA%92%E5%9B%BE-%E7%AC%AC%209%20%E9%A1%B5.drawio.png)
                   图1(改造前组件交互图)                                                      图2(改造后组件交互图)
 
 其中，图1为改造前组件交互图，可以看出组件间存在强依赖关系，而图2是组件模块间解耦及通信轻量级实现方案改造后的交互图，在该图中组件包含组件接口和组件实现两个子组件模块，同时接口和实现对应关系会注册到组件服务管理模块。当组件A需要使用组件B提供的服务时直接访问组件服务管理从而获得B服务提供的能力，而不用依赖B服务。
