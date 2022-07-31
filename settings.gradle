@@ -1,0 +1,8 @@
+
+rootProject.name = "ComponmentDemo"
+include ':app'
+include ':componentA:component'
+include ':componentA:component-api'
+include ':componentB:component'
+include ':componentB:component-api'
+include ':wing'

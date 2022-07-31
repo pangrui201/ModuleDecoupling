@@ -1,0 +1,13 @@
+plugins {
+    id 'java-library'
+}
+dependencies {
+    implementation 'com.google.auto.service:auto-service:1.0-rc7'
+    annotationProcessor'com.google.auto.service:auto-service:1.0-rc7'//注意需要加上这个,没有这个生成不了文件
+    implementation 'com.squareup:javapoet:1.10.0'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
