@@ -1,4 +1,5 @@
 # ModuleDecoupling
+[文章地址:](https://blog.csdn.net/pangrui201/article/details/126103858)https://blog.csdn.net/pangrui201/article/details/126103858
 ## 背景
 随着Android APP业务需求的不断迭代，业务功能越来越多，代码量也越来越多，组件间难免会因为方法功能调用页面访问等场景存在相互访问依赖耦合。为此，探索一种可行方案彻底解决组件模块间耦合同时还能满足组件间相互通信访问显得十分必要。经过不断努力探索调研结合过去工作经验项目总结推出本方案。
 
